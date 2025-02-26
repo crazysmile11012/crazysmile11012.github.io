@@ -33,7 +33,7 @@ body {
 }
 .parallax {
 
-background-image: url("assets/img/lax.png");
+background-color:#202020;
 min-height: 200px;
 background-attachment: fixed;
 background-position: center;
@@ -44,7 +44,7 @@ display: flex;
 flex-wrap: wrap;
 }
 footer {
-  background-image: url("assets/img/lax.png");
+  background-color: #202020;
   border-radius: 15px;
 }
 .fa {
