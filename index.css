@@ -71,3 +71,31 @@ footer {
   background: grey;
   color: white;
 }
+.nexusbutton{
+  padding: 25px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: orange;
+  color: orange;
+}
+.nexusbutton:hover{
+  opacity: 0.7;
+}
+.emailbutton{
+  padding: 25px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: white;
+  color: white;
+}
+.emailbutton:hover{
+  opacity: 0.7;
+}
