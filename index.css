@@ -47,8 +47,8 @@ footer {
   background-color: #202020;
   border-radius: 15px;
 }
-.fa {
-  padding: 20px;
+.fab {
+  padding: 25px;
   font-size: 30px;
   width: 20px;
   height: 20px;
@@ -56,11 +56,18 @@ footer {
   text-decoration: none;
   border-radius: 50%;
 }
-
-.fa:hover {
+.fab:hover {
   opacity: 0.7;
 }
 .fa-linkedin {
   background: #007bb5;
+  color: white;
+}
+.fa-discord {
+  background: #7785cc;
+  color: white;
+}
+.fa-github {
+  background: grey;
   color: white;
 }
