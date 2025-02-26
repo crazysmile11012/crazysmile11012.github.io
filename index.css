@@ -2,7 +2,12 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  /*width: 180px;*/
+  width: 20%;
+  height: auto;
+  border-radius: 25px;
+  display: flex;  
+  flex-wrap: wrap;
 }
 
 div.gallery:hover {
@@ -11,7 +16,11 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  border-radius: 25px 25px 5px 5px;
+  /*height: 109px;*/
+  height: 100%;
+  display: flex;  
+  flex-wrap: wrap;
 }
 
 div.desc {
@@ -20,5 +29,38 @@ div.desc {
   
 }
 body {
-  background-color: lightgreen;
+  background-image: linear-gradient(green, orange);
+}
+.parallax {
+
+background-image: url("assets/img/lax.png");
+min-height: 200px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 5px;
+display: flex;  
+flex-wrap: wrap;
+}
+footer {
+  background-image: url("assets/img/lax.png");
+  border-radius: 15px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
