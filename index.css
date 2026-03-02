@@ -29,7 +29,7 @@ div.desc {
   
 }
 body {
-  background-image: linear-gradient(green, orange);
+  background-image: url("assets/img/background.png");
 }
 .parallax {
 
@@ -47,55 +47,12 @@ footer {
   background-color: #202020;
   border-radius: 15px;
 }
-.fab {
-  padding: 25px;
-  font-size: 30px;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-.fab:hover {
-  opacity: 0.7;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa-discord {
-  background: #7785cc;
-  color: white;
-}
-.fa-github {
-  background: grey;
-  color: white;
-}
-.nexusbutton{
-  padding: 25px;
-  font-size: 30px;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  background-color: orange;
-  color: orange;
-}
-.nexusbutton:hover{
-  opacity: 0.7;
-}
-.emailbutton{
-  padding: 25px;
-  font-size: 30px;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  background-color: white;
-  color: white;
-}
-.emailbutton:hover{
-  opacity: 0.7;
+
+
+
+
+
+
+.headers{
+	color: white;
 }
